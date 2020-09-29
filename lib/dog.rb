@@ -19,8 +19,11 @@ def self.clear_all
   @@all.clear
 end 
 
-def self.print_all
-  @@all.each{|pup| puts pup}
+  def self.print_all
+  @@all.each do |pup| 
+    puts pup 
+  end
+end
 end 
 
 
